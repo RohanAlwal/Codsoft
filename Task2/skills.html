@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>skills - Portfolio</title>
+</head>
+<body>
+    <nav>
+      <h1>PORTFOLIO</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>  
+        <li><a href="about.html">About</a></li> 
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+  
+    <section id="skills" class="section">
+      <h2 class="at">My Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <label for="html">HTML</label>
+          <input type="range" id="html" min="0" max="100" value="90" oninput="updateValue('htmlValue', this.value)">
+          <span id="htmlValue">90</span>/100
+        </div>
+
+        <div class="skill">
+          <label for="css">CSS</label>
+          <input type="range" id="css" min="0" max="100" value="85" oninput="updateValue('cssValue', this.value)">
+          <span id="cssValue">85</span>/100
+        </div>
+
+        <div class="skill">
+          <label for="javascript">JavaScript</label>
+          <input type="range" id="javascript" min="0" max="100" value="75" oninput="updateValue('jsValue', this.value)">
+          <span id="jsValue">75</span>/100
+        </div>
+
+        <div class="skill">
+          <label for="c++">C++</label>
+          <input type="range" id="c++" min="0" max="100" value="65" oninput="updateValue('jsValue', this.value)">
+          <span id="jsValue">65</span>/100
+        </div>
+
+        <div class="skill">
+          <label for="java">Java</label>
+          <input type="range" id="java" min="0" max="100" value="85" oninput="updateValue('jsValue', this.value)">
+          <span id="jsValue">85</span>/100
+        </div>
+
+        <div class="skill">
+          <label for="react">React</label>
+          <input type="range" id="react" min="0" max="100" value="55" oninput="updateValue('jsValue', this.value)">
+          <span id="jsValue">50</span>/100
+        </div>
+      </div>
+    </section>
+    
+
+</body>
+</html>

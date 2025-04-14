@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+    <Nav>
+      <H1>PORTFOLIO</H1>
+   <ul>
+   
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="project.html">Project</a></li>
+    <li><a href="contact.html">Contact</a></li>
+   </ul>
+    </Nav>
+
+
+   <section id="home">
+    <div class="home">
+      <div class="in">
+        <H1>Hello, I am Rohan Alwal</H1>
+        <h2 class="animate">Frontend Developer</h2>
+        <p>As a Frontend Developer, I create visually appealing and user-friendly web interfaces using HTML, CSS, and JavaScript. I focus on building responsive, interactive websites to deliver seamless user experiences across devices.</p>
+      </div>
+      <img src="Photo.jpg" alt="">
+     </div>
+   </section>
+ 
+
+   <section id="about">
+    <div class="abt">
+     <h1 class="at">About Me</h1>
+     <div class="abtme">
+       <p>Hi! I am Rohan Alwal, aan enthusiastic Electronics and Telecommunication Engineering student currently pursuing my Bachelor’s degree at Walchand Institute of technology, Solapur. Prior to this, I earned a diploma in Electronics and Telecommunication Engineering from Government Polytechnic Solapur, which laid a strong foundation in software development and problem-solving.
+
+        I am deeply passionate about technology and have hands-on experience in crafting innovative projects. My coding expertise spans Java, C++, and web development. Alongside my academic journey, I am gaining valuable industry exposure through an internship, enhancing both my technical proficiency and teamwork abilities.
+        </p>
+     </div>
+    </div>
+   </section>
+
+
+   <section id="skills" class="section">
+    <h2 class="at">My Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <label for="html">HTML</label>
+        <input type="range" id="html" min="0" max="100" value="90" oninput="updateValue('htmlValue', this.value)">
+        <span id="htmlValue">90</span>/100
+      </div>
+
+      <div class="skill">
+        <label for="css">CSS</label>
+        <input type="range" id="css" min="0" max="100" value="85" oninput="updateValue('cssValue', this.value)">
+        <span id="cssValue">85</span>/100
+      </div>
+
+      <div class="skill">
+        <label for="javascript">JavaScript</label>
+        <input type="range" id="javascript" min="0" max="100" value="75" oninput="updateValue('jsValue', this.value)">
+        <span id="jsValue">75</span>/100
+      </div>
+
+      <div class="skill">
+        <label for="c++">C++</label>
+        <input type="range" id="c++" min="0" max="100" value="65" oninput="updateValue('jsValue', this.value)">
+        <span id="jsValue">65</span>/100
+      </div>
+
+      <div class="skill">
+        <label for="java">Java</label>
+        <input type="range" id="java" min="0" max="100" value="85" oninput="updateValue('jsValue', this.value)">
+        <span id="jsValue">85</span>/100
+      </div>
+
+      <div class="skill">
+        <label for="react">React</label>
+        <input type="range" id="react" min="0" max="100" value="55" oninput="updateValue('jsValue', this.value)">
+        <span id="jsValue">50</span>/100
+      </div>
+    </div>
+  </section>
+
+
+  <section id="project">
+    <h2 class="at" style="margin-top: 70px;">Projects</h2>
+    <div class="proj">
+     
+      <div class="prj">
+        <h3 class="head">Object Detection for Visually Impaired People</h3>
+        <p >Developed an assistive technology system combining object detection and voice guidance to aid visually
+          impaired individuals in navigating their environment and identifying objects.</p>
+      </div>
+
+      <div class="prj">
+        <h3 class="head">Smart Door Lock System Using ESP32-CAM </h3>
+        <p>Developed a smart door lock system that integrates security and convenience using the ESP32-CAM module,
+          providing remote access and monitoring capabilities.</p>
+      </div>
+
+      <div class="prj">
+        <h3 class="head">Mini-Project</h3>
+        <p>Developed mini projects using HTML, CSS, and JavaScript, including a responsive Tic Tac Toe game with an
+          intuitive user interface.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2 class="at" style="margin-top: 80px;">Contact Me</h2>
+    <p style=" margin-left: 480px;
+ color: white;">Feel free to reach out for collaborations or inquiries.</p>
+
+   
+  </section>
+
+  <footer class="footer">
+   <p style=" margin-left: 480px;
+ color: white;">&copy; 2025 Lata Myana. All Rights Reserved.</p>
+
+ </footer>
+
+
+</body>
+</html>

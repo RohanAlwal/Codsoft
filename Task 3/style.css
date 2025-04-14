@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0;
+    background-color: #98bbb8;
+    
+}
+
+h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.calculator{
+
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+   border-radius: 3vmin;
+    margin-top: 60px;
+    font-size: 30px;
+   
+}
+
+form {
+    background-color: rgb(6, 6, 22);
+    padding: 40px;
+    border-radius: 2vmin;
+  
+}
+
+form .one{
+    background-color: beige;
+    border-radius: 2vmin;
+    display: table-row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 10px;
+    row-gap: 30px;
+    border-color: rgb(2, 13, 65);
+     width: 50px;
+    background: transparent;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+form  .display .two{
+    background-color:  rgb(218, 221, 233);
+    display: table-row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 10px;
+    row-gap: 30px;
+    border-color: rgb(3, 0, 0);
+     width: 200px;
+    row-gap: 100px;
+    border-color: white;
+    cursor: pointer;
+}
+
+form .three{
+    background-color: beige;
+    border-radius: 2vmin;
+    display: table-row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 10px;
+    row-gap: 30px;
+    border-color: rgb(2, 13, 65);
+     width: 110px;
+    background: transparent;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+
+}

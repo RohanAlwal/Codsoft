@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h2><span> ****Calculator****</span></h2>
+    
+        <div class="calculator">
+
+            <form> 
+                <div class="display">
+                <input type="text" class="two" name="display" >
+            </div>
+                <br>
+                <br>
+                <input type="button" value="AC" class="one"  onclick="display.value='' ">
+                <input type="button" value="DELETE" class="one"  onclick="display.value=display.value.slice(0,-1) ">
+                <input type="button" value="." class="one" onclick="display.value+='.' ">
+                <input type="button" value="/" class="one"  onclick="display.value+='/' ">
+                <br>
+                <br>
+                <input type="button" value="7" class="one" onclick="display.value+='7' " >
+                <input type="button" value="8" class="one"  onclick="display.value+='8' ">
+                <input type="button" value="9" class="one" onclick="display.value+='9' ">
+                <input type="button" value="*"class="one" onclick="display.value+='*' ">
+                <br>
+                <input type="button" value="4"class="one"  onclick="display.value+='4' ">
+                <input type="button" value="5" class="one" onclick="display.value+='5' ">
+                <input type="button" value="6" class="one" onclick="display.value+='6' ">
+                <input type="button" value="-" class="one" onclick="display.value+='-' ">
+                <br>
+                <input type="button" value="1" class="one" onclick="display.value+='1' ">
+                <input type="button" value="2" class="one" onclick="display.value+='2' ">
+                <input type="button" value="3" class="one" onclick="display.value+='3' ">
+                <input type="button" value="+" class="one" onclick="display.value+='+' ">
+                <br>
+                <input type="button" value="00" class="one" onclick="display.value+='00' ">
+                <input type="button" value="0" class="one" onclick="display.value+='0' ">
+                <input type="button" value="=" class="three" onclick="display.value=eval(display.value) ">
+            </form>
+        </div>
+   
+</body>
+</html>
